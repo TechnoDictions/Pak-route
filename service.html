@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Services | Pak Route</title>
+    <style>
+        main {
+            height: 90vh;
+            width: 100%;
+            background-image: url(img/img2.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            flex-direction: column;
+        }
+
+        .mdiv {
+            max-width: 50%;
+            text-align: center;
+            background-color: rgba(219, 219, 219, 0.621);
+            backdrop-filter: blur(3px);
+            border-radius: 20px;
+        }
+
+        .mdiv h1,.mdiv h2,.mdiv p {
+            padding: 10px;
+        }
+
+        .mdiv h1 {
+            font-size: 30px;
+
+        }
+
+        .mdiv h2 {
+            font-size: 40px;
+
+        }
+
+        .mdiv p {
+            font-size: 20px;
+        }
+
+        .service {
+            width: 80%;
+            margin: 50px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .cards {
+            height: 300px;
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+        }
+
+        .cards img {
+            height: 100%;
+            width: 50%;
+            object-fit: cover;
+            object-position: center center;
+            border-radius: 20px;
+        }
+        .card-c{
+            width: 46%;
+            height: 90%;
+            margin: auto;
+            border-radius: 13px;
+        }
+        .card-c h3{
+             font-size: 40px;
+        }
+        .card-c p{
+            font-size: 22px;
+        }
+    </style>
+</head>
+
+<body>
+    <Header>
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li class="nav-li nav-li1"><a href="index.html">Home</a></li>
+                <li class="nav-li nav-li2"><a href="about.html">About</a></li>
+                <li class="nav-li nav-li3"><a href="contact.html">Contact us</a></li>
+                <li class="nav-li nav-li4"><a href="service.html">Services</a></li>
+                <li class="nav-li nav-li1"><a href="view-travel.html">Pakages</a></li>
+            </ul>
+        </nav>
+        <div class="hdiv-1">
+            <a href="login.html">
+                <i class="material-icons">account_circle</i>
+                <p>Log in</p>
+            </a>
+        </div>
+    </Header>
+
+    <div class="spacer"></div>
+    <main>
+        <div class="mdiv">
+            <h1>
+                Services
+            </h1>
+            <h2>What We Do</h2>
+            <p>We offer a wide range of travel services designed to make your journey smooth, comfortable, and
+                stress-free. From planning to execution, we take care of every detail so you can travel with confidence.
+            </p>
+        </div>
+    </main>
+    <div class="service">
+        <div class="cards"><img src="img/Services/food.png" alt="">
+            <div class="card-c">
+                <h3>
+                  Food
+                </h3>
+                <p>We ensure hygienic, high-quality meals throughout your journey. Our food arrangements are selected carefully to suit different tastes and dietary preferences, allowing you to enjoy local flavors as well as familiar options during your trip.</p>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card-c">
+                <h3>
+                  Hotels
+                </h3>
+                <p>We provide comfortable and reliable hotel accommodations ranging from budget-friendly stays to luxury hotels. All our hotel partners are chosen for their cleanliness, safety, and convenient locations to ensure a pleasant stay.</p>
+            </div><img src="img/Services/Hotel.webp" alt="">
+        </div>
+        <div class="cards"><img src="img/Services/Bus.jpg" alt="">
+            <div class="card-c">
+                <h3>
+                Buses
+                </h3>
+                <p>Our bus and transportation services offer safe, comfortable, and well-maintained vehicles for local and long-distance travel. With experienced drivers and timely schedules, we make sure your journey is smooth and stress-free.</p>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card-c">
+                <h3>
+                  Our Guide
+                </h3>
+                <p>Our professional and knowledgeable tour guides help you explore destinations with deeper understanding and confidence. From historical insights to local culture and hidden spots, our guides enhance your travel experience at every step.</p>
+            </div><img src="img/Services/guide.jpg" alt="">
+        </div>
+    </div>
+    <footer>
+        <div class="foots foot1">
+            <div class="f-childs"><h3>Give us a Feedback</h3>
+            <span><a href="feedback.html"><i class="material-icons">chat</i></a></span>
+            </div>
+            <div class="f-childs"><h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact us</a>
+            <a href="about.html">About us</a>
+            <a href="service.html">Services</a>
+            <a href="view-travel.html">Pakages</a>
+            </div>
+            <div class="f-childs"><h3>Contact Information</h3>
+             <p>Phone : 03001234123</p>
+             <p>Whatsapp : 03001231231</p>
+             <p>Email : info@pakroute.com</p>
+             <p>X : pakroute</p>
+
+            </div>
+        </div>
+        <div class="foots foot2"><p>© Copyright 2025 PakRoute | All right reserved</p></div>
+    </footer>
+</body>
+
+</html>

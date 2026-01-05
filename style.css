@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ubuntu;
+}
+/*
+=======
+Header
+=======
+*/
+
+header{
+    height:100px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(4px);
+    position: fixed;
+    z-index: 9999;
+    border-bottom:1px solid rgb(167, 167, 167) ;
+}
+.logo{
+   background-color: rgb(21, 87, 87);
+   height: 90%;
+   width: 150px;
+   margin: 0 10px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    outline: none;
+}
+nav{
+   height: 50%;
+   width: 60%; 
+}
+nav ul{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    display: block;
+    font-weight: 500;
+    color: rgb(28, 20, 81);
+    transition: all .5s ease;
+}
+nav ul li a:hover{
+    transform: translateY(-5px) ;
+    color: rgb(99, 99, 99);
+}
+.hdiv-1{
+    padding: 20px;
+}
+.hdiv-1 a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition:all .5s ease;
+}
+.hdiv-1 a:hover{
+    transform: translateY(-5px);
+}
+.hdiv-1 p{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+}
+.hdiv-1 i{
+    color: rgb(0, 0, 0);
+    font-size: 35px ;
+    margin-right: 10px;
+}
+
+/*
+=====
+Main
+=====
+*/
+.spacer{
+    height: 100px;
+}
+main{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content:center ;
+    background-image: url(img/destinations/hunza\ valley.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.m-div{
+  height: 300px;
+  width: 50%;
+  position: relative;
+  border-radius: 30px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.415);
+}
+.m-div1{
+    height: 50%;
+    margin: 20px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.m-div h1{
+    font-size: 37.5px;
+}
+.m-div p{
+    font-size:20px;
+}
+.m-div button{
+    font-size: 18px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 12px 20px;
+    transition: all .5s ease
+}
+.m-div button:hover{
+    background-color: white;
+    border:2px solid black;
+    color: black;
+}
+.m-div svg{
+    color: black;
+    height: 60px;
+    width: 60px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+/*
+============
+Destinations
+============
+*/
+.desti h1{
+   text-align: center;
+   margin: 50px;
+   font-size: 50px;
+   margin-top: 80px;
+}
+.desti-p{
+    display: flex;
+    flex-direction: column;
+}
+.desti-c{
+    width: 80%;
+    margin: 40px auto;
+}
+.desti-c a{
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    display: flex;
+}
+.desti-c img{
+    height: 360px;
+    width: 450px;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: center center;
+    background-color: rgb(238, 238, 238);
+    transition: all .5s ease;
+}
+.desti-c:hover img{
+    transform: scale(1.06);
+}
+.desti-cc{
+    background-color: blue;
+    width: 50%;
+    height: auto;
+}
+.desti-ccc{
+    margin: 40px;
+    margin-left:60px ;
+}
+.desti-ccc h3{
+    font-size: 37px;
+}
+.desti-ccc p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.buttontour{color: white;
+    background-color: rgb(25, 25, 75);
+    font-size: 15px;
+    padding :10px 20px;
+    border-radius: 15px;
+    transition: .5s ease;
+
+}
+
+.buttontour:hover{background-color: white;
+    border:2px solid black;
+    color: black;
+}
+.desti-ccc h3{
+    color: rgb(24, 24, 68) ;
+}
+
+
+
+.desti h1{
+    color: rgb(24, 24, 93);
+}
+footer{
+    width: 100%;
+    background-color: rgb(11, 20, 49);
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    color: white;
+}
+.foots{
+   
+    
+}
+.foot1{
+    display: flex;
+}
+.f-childs{
+    font-size: 23px;
+width: 30%;
+display:flex;
+flex-direction: column;
+    margin: 10px;
+}
+.f-childs i{
+    font-size: 100px;
+    margin: 40px;
+    transition: all .5s ease;
+}
+.f-childs i:hover{
+    transform: scale(1.2);
+}
+.f-childs h3,.f-childs a{
+    color:white;
+    padding:11px;
+    text-decoration:none;
+}
+.foot2{
+    border-top:2px solid white;
+    width: 100%;
+    text-align: center;
+}
+.foot2 p{
+    padding: 10px;
+    font-size: 16px;
+}
+.f-childs p{
+    padding: 10px;
+}
